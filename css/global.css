@@ -12,37 +12,132 @@ img {
   zoom: 1;
 }
 
-.grid {
+.wrapper {
   margin: 0 auto;
   width: 100%;
+  max-width: 1200px;
+}
+
+header {
+
+}
+
+nav {
+
+}
+
+nav > ul > li {
+  display: inline;
+  padding-right: 20px;
+  color: #919191;
+}
+
+.active {
+  font-weight: bold;
+  color: black;
+}
+
+.header-image {
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  height: 400px;
+}
+
+.header-text {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+main {
+  margin: 0 auto;
+  width: 80%;
   max-width: 960px;
 }
 
-.row {
-
+.pricing-row {
+ text-align: center;
 }
 
-.column {
+.pricing-column {
   display: inline-block;
   float: left;
-  width: calc(100% / 3);
-  padding: 20px;
+  width: 33%;
+  /*padding: 20px;*/
+  border: 1px dotted gray;
+  margin: 10px;
 }
 
-.text-column {
-  columns: 3
-}
-
-#banner {
-  position: fixed;
-  z-index: 1;
-  top: 30px;
-  left: -45px;
-  background-color: rgb(183, 145, 242);
+.column-header {
   color: white;
-  padding: 15px;
-  width: 200px;
-  text-align: center;
-  transform: rotate(-45deg);
-  box-shadow: 2px 2px 10px rgba(0,0,0,.3);
+  padding: 20px;
+  color: white
+}
+
+.pricing-plan {
+
+}
+
+.price {
+  font-size: 50px;
+}
+
+.pricing-rate {
+  color: rgba(255,255,255,.3);
+}
+
+.column-main {
+
+}
+
+.column-list {
+  background-color: #F7F7F7;
+  border: 1px dotted gray;
+}
+
+.column-footer {
+
+}
+
+button {
+  border-radius: 10px;
+  background: transparent;
+  margin-top: 20px;
+}
+
+#personal {
+  background-color: #519251;
+}
+
+#small-business {
+  background-color: #2C4985;
+}
+
+#enterprise {
+  background-color: #111111;
+}
+
+.text-row {
+  float:left;
+  clear: both;
+}
+
+.text-row > section {
+  float:left;
+}
+
+footer {
+ clear: both;
+ background-color: #111111;
+ color: #7D7D7D;
+ text-align: center;
+ padding: 20px;
+}
+
+footer > a {
+  color: #989898;
+}
+
+footer > a:visited {
+  color: #989898;
 }
