@@ -9,13 +9,13 @@ img {
 
 .clearfix {
   overflow: auto;
-  zoom: 1;
+  /*zoom: 1;*/
 }
 
 .wrapper {
   margin: 0 auto;
   width: 100%;
-  max-width: 1200px;
+  /*max-width: 1200px;*/
 }
 
 header {
@@ -32,6 +32,10 @@ nav > ul > li {
   color: #919191;
 }
 
+nav > ul > li:hover {
+  text-decoration: underline;
+}
+
 .active {
   font-weight: bold;
   color: black;
@@ -45,6 +49,7 @@ nav > ul > li {
 }
 
 .header-text {
+  font-family: 'Roboto', sans-serif;
   color: white;
   text-align: center;
   font-size: 40px;
@@ -112,6 +117,10 @@ button {
   font-weight: bold;
 }
 
+button:hover {
+  border: 1px solid black;
+}
+
 #personal {
   background-color: #519251;
 }
@@ -142,6 +151,7 @@ button {
 
 .text-row > section > p {
   color: #5B696F;
+  line-height: 1.5;
 }
 
 footer {
