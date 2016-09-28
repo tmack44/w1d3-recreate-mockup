@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+body {
+  text-align: center;
+}
+
+/*.grid {
+ margin: 0 auto;
+ width: 100%;
+ max-width: 960px;
+}*/
+
+.box {
+  background-color: red;
+  display: inline-block;
+  width: 30vw;
+  margin-right: 20px;
+  height: 30vh;
+}
