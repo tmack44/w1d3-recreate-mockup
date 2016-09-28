@@ -41,6 +41,7 @@ nav > ul > li {
   background-image: url("../assets/background.jpg");
   background-size: cover;
   height: 400px;
+  padding: 150px;
 }
 
 .header-text {
@@ -56,13 +57,14 @@ main {
 }
 
 .pricing-row {
+  margin-top: 30px;
  text-align: center;
 }
 
 .pricing-column {
   display: inline-block;
   float: left;
-  width: 33%;
+  width: 30%;
   /*padding: 20px;*/
   border: 1px dotted gray;
   margin: 10px;
@@ -71,7 +73,6 @@ main {
 .column-header {
   color: white;
   padding: 20px;
-  color: white
 }
 
 .pricing-plan {
@@ -79,7 +80,7 @@ main {
 }
 
 .price {
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .pricing-rate {
@@ -93,6 +94,8 @@ main {
 .column-list {
   background-color: #F7F7F7;
   border: 1px dotted gray;
+  padding: 10px;
+  color: rgba(0,0,0,.6);
 }
 
 .column-footer {
@@ -100,9 +103,13 @@ main {
 }
 
 button {
-  border-radius: 10px;
+  border-radius: 20px;
+  border: 1px solid gray;
   background: transparent;
   margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-weight: bold;
 }
 
 #personal {
@@ -118,12 +125,23 @@ button {
 }
 
 .text-row {
-  float:left;
-  clear: both;
+  /*float:left;*/
+  font-family: 'Roboto', sans-serif;
 }
 
 .text-row > section {
   float:left;
+  width: 50%;
+  padding: 20px;
+}
+
+.text-row > section > h2 {
+  color: #050505;
+  letter-spacing: 3px;
+}
+
+.text-row > section > p {
+  color: #5B696F;
 }
 
 footer {
@@ -134,10 +152,10 @@ footer {
  padding: 20px;
 }
 
-footer > a {
-  color: #989898;
+a:link{
+  color: white;
 }
 
-footer > a:visited {
-  color: #989898;
+a:visited {
+  color: white;
 }
