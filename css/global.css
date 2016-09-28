@@ -71,7 +71,7 @@ main {
   float: left;
   width: 30%;
   /*padding: 20px;*/
-  border: 1px dotted gray;
+  border: 1px solid gray;
   margin: 10px;
 }
 
@@ -98,13 +98,13 @@ main {
 
 .column-list {
   background-color: #F7F7F7;
-  border: 1px dotted gray;
+  border-top: 1px solid gray;
   padding: 10px;
   color: rgba(0,0,0,.6);
 }
 
 .column-footer {
-
+ border-top: 1px solid gray;
 }
 
 button {
