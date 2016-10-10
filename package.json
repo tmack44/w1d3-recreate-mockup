@@ -1,0 +1,23 @@
+{
+  "name": "w1d3-recreate-mockup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmack44/w1d3-recreate-mockup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmack44/w1d3-recreate-mockup/issues"
+  },
+  "homepage": "https://github.com/tmack44/w1d3-recreate-mockup#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.0",
+    "gulp": "^3.9.1"
+  }
+}

@@ -1,0 +1,395 @@
+* {
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+}
+
+img {
+  width: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+  /*font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;*/
+  /*font-family: "ff-enzo-web",tahoma,sans-serif;*/
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 1em;
+  min-width: 300px;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.wrapper {
+  /*display: flex;
+  flex-direction: column;*/
+  /*text-align: center;*/
+  /*align-items: center;*/
+}
+
+.header {
+ display: flex;
+ flex-direction: column;
+}
+
+.header-coupon-bar {
+  background-color: RGBA(250, 105, 56, 1.00);
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.header-row {
+  max-width: 1120px;
+}
+
+.header-coupon-bar ul {
+  /*display: flex;*/
+}
+
+.header-coupon-bar li {
+  display: inline;
+  padding: .5vw;
+}
+
+.header-coupon-bar li:first-child {
+  background: RGBA(199, 83, 44, 1.00);
+  border-radius: 10px;
+}
+
+.header-main {
+  /*height: 100px;*/
+  display: flex;
+  align-items: center;
+  /*justify-content: space-around;*/
+    max-width: 1120px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  flex: 1;
+}
+
+.header-logo img {
+  /*width: 125px;*/
+}
+
+.header-nav {
+  flex: 5;
+  /*padding-left: 5vw*/
+}
+
+.header-nav ul {
+ /*display: flex;*/
+ /*padding-left: 10vw;*/
+}
+
+.header-nav li {
+  display: inline;
+  color: RGBA(48, 48, 48, 1.00);
+  padding: 1vw;
+  /*padding: 10px;*/
+  font-size: 1.5em;
+}
+
+.header-links {
+  flex:  3;
+  /*display: flex;
+  flex-direction: column;*/
+  text-align: right;
+}
+
+.login-area ul {
+  /*display: flex;*/
+  text-align: right;
+}
+
+.login-area li {
+  display: inline;
+  padding: .5vw;
+}
+
+.cart-button {
+  background: transparent;
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 30%;
+  padding: 5px;
+  height: 1.5vw;
+}
+
+.search-box {
+  margin-left: 10px;
+  width: 40%;
+  height: 1.5vw
+}
+
+.perforated-divider {
+  background: url(../assets/perforated-bottom@2x.png) repeat-x;
+  height: 7px;
+  width: 100%;
+}
+
+.tie-pics-section {
+  /*height: 300px;*/
+  background-color: RGBA(244, 244, 244, 1.00);
+  width: 100%;
+  /*display: flex;
+  justify-content: center;*/
+  /*max-width: 1120px;*/
+  /*padding: 10px; */
+  /*padding-bottom: 20vw;*/
+}
+
+.tie-pics-row {
+  display: flex;
+  justify-content: center;
+  background-color: RGBA(244, 244, 244, 1.00);
+  /*max-width: 1120px;*/
+  /*padding: 10px;*/
+}
+
+.tie-headline {
+  font-size: 4em;
+  text-align: center;
+  background-color: RGBA(244, 244, 244, 1.00);
+  padding-top: 3vw;
+  padding-bottom: 4vw;
+}
+
+.tie-section {
+ flex: 1;
+}
+
+.tie-image {
+  /*width: 75%;*/
+
+}
+
+.tie-title {
+  text-align: center;
+}
+
+.product-images-section {
+  /*height: 200px;*/
+  max-width: 1120px;
+  display: flex;
+  margin: 0 auto;
+  padding: 1.5vw;
+  height: 20vw;
+}
+
+.product-section {
+ flex: 1;
+ padding: 10px;
+ margin: 15px;
+}
+
+.product-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*.product-image {
+ padding: 10px;
+}*/
+
+#image-left {
+  background-image: url("../assets/bow-ties.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#image-middle {
+  background-image: url("../assets/pocket-squares@1.5x.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#image-right {
+  background-image: url("../assets/tie-bars.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.tagline-section {
+  text-align: center;
+  padding: 3vw;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.tagline {
+  color: RGBA(32, 32, 32, 1.00);
+  font-size: 2em;
+  font-style: italic;
+  padding: 1.5vw;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.our-story a:link, a:visited {
+  text-decoration: none;
+  color: RGBA(88, 178, 255, 1.00);
+  }
+
+.resource-section {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1120px;
+  padding-top: .5vw;
+}
+
+.hatch-divider {
+  /*content: '';*/
+  background: url(../assets/hatch-light@2x.png) repeat-x;
+  height: 10px;
+  width: 100%;
+  /*position: absolute;*/
+}
+
+.resource {
+  padding: 1.5vw;
+  font-size: .8em;
+  line-height: 1.4;
+  flex: 1;
+}
+
+.resource h2 {
+  font-weight: bold;
+}
+
+.resource a:link, a:visited {
+  text-decoration: none;
+  color: RGBA(88, 178, 255, 1.00);
+  }
+
+.social-logos{
+  width: 15%;
+}
+
+@media (max-width: 600px) {
+  .resource-section {
+    flex-direction: column;
+  }
+
+  .resource {
+    padding: 5vw;
+  }
+
+  .product-images-section {
+    flex-direction: column;
+  }
+
+  .tagline {
+    font-size: 1.2em;
+  }
+
+  .header-coupon-bar ul {
+    display: none;
+  }
+
+  .tie-headline {
+    font-size: 2.5em;
+  }
+
+}
+
+.newsletter-email {
+  width: 90%;
+  height: 2.5em;
+}
+
+.subscribe-button {
+  background-color: RGBA(51, 161, 255, 1.00);
+  color: white;
+  margin-top: 15px;
+  border-radius: 3px;
+  border-style: none;
+  padding: 5px;
+}
+
+.footer-wrapper {
+    background-color: RGBA(244, 244, 244, 1.00);
+    /*width: 100%;*/
+    margin: 0 auto;
+}
+
+.footer {
+  margin: 0 auto;
+  /*padding: 20px;*/
+  display: flex;
+  justify-content: space-between;
+  max-width: 1120px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: left;
+  flex: 5;
+}
+
+.footer-section {
+}
+
+.footer-section h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  color: RGBA(32, 32, 32, 1.00);
+}
+
+.footer-section ul:first-child {
+  list-style: none;
+  padding-left: 0;
+  }
+
+.footer-section li {
+  padding: 3px 20px 3px 3px;
+  color: RGBA(144, 144, 144, 1.00);
+}
+
+.call-to-action {
+ /*float: right;*/
+ background-color: RGBA(162, 175, 192, 1.00);
+ border: 1px solid RGBA(162, 175, 192, 1.00);
+ border-radius: 2px;
+ color: white;
+ padding: 10px;
+ flex: 2;
+ margin: 30px;
+ width: 15%;
+}
+
+.contact-info {
+  float: left;
+  padding: 5px;
+}
+
+.contact-button {
+  background-color: RGBA(51, 161, 255, 1.00);
+  color: white;
+  margin-top: 15px;
+  border-radius: 3px;
+  border-style: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+.copy {
+  /*display: block;
+  flex: none;*/
+  font-size: .8em;
+  color: RGBA(144, 144, 144, 1.00);
+  background-color: RGBA(244, 244, 244, 1.00);
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+  width: 1120px;
+  text-align: left;
+}
